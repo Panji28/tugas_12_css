@@ -1,0 +1,75 @@
+ul{
+    background-color: black;
+    width: 126.9%;
+    height: 50px;
+    word-spacing: 70px; /*bisa memakai rem atau px terserah apa aja   */ 
+    position: relative;
+}
+
+li{
+ display: inline-block;
+}
+
+a{
+ position: absolute;
+ float: left;
+ 
+ text-decoration: none;
+ color: white;
+}
+
+body{
+
+}
+
+.row{
+    background-color: aquamarine;
+    background-size: 120%;
+    width: 130%;
+    
+    
+}
+.card{
+   
+}
+
+
+
+.slider-img{
+    width: 98%;
+    margin-left: 12px;
+    margin-top: 11px;
+
+   
+}
+
+.image{
+    float: left;
+    column-gap: 12px;
+    margin-left: 12px;
+    margin-top: 20px;
+    margin-right: 12px;
+    
+}
+
+.p-text{
+    height: 300px;
+    font-size: 16.6px; 
+    text-align: justify;
+    column-count: 4;
+    column-rule: 2px double black;
+    column-width: 300px;
+    column-gap: 12px;
+    column-fill: balance;
+    margin-right: 12px;
+    
+    
+}
+
+.footer{
+    background-color: black;
+    width: 130%;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
